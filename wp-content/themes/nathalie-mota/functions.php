@@ -50,6 +50,7 @@ function nathalie_mota_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'nathalie-mota' ),
+			'menu-2' => esc_html__( 'Footer', 'nathalie-mota' ),
 		)
 	);
 
